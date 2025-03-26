@@ -1,0 +1,25 @@
+
+Monedra Smart Contract (Mainnet-Version)
+----------------------------------------
+
+✅ Gebühren aktiviert:
+   - 2% Burn
+   - 1% Treasury (an definierte Wallet-Adresse)
+
+✅ Sicherheitsfunktionen:
+   - Blacklist: Sperre bestimmter Adressen
+   - Gebühren flexibel anpassbar durch den Owner
+
+🛠 Deployment:
+   - Erfordert Eingabe einer gültigen Treasury-Adresse im Konstruktor
+
+Name: Monedra
+Symbol: MONE
+Supply: 100,000,000
+Decimals: 18
+Blockchain: Ethereum Mainnet (bereit)
+
+Funktionen:
+- setTreasuryWallet()
+- setFees()
+- blacklistAddress()
